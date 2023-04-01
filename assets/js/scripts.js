@@ -1,0 +1,19 @@
+$(document).ready(function(){   
+    
+    $(".mode_button").click(function(){
+        $(".mode_buttonInterno").toggleClass("ativo");
+        $(".container").toggleClass("dark");
+        $("body").toggleClass("dark");
+        $(".darkmodeLogo").toggleClass("dark");
+        $(".whitemodeLogo").toggleClass("dark");
+        $(".navbar").toggleClass("dark");
+        $(".navbar-toggler").toggleClass("dark");
+        $(".nav-link").toggleClass("dark");
+        $(".mode_button").toggleClass("dark");
+        $(".mode_buttonInterno").toggleClass("dark");
+        $("#sobre").toggleClass("dark");
+        $("#produtosh2").toggleClass("dark");
+        $("#produtos").toggleClass("dark");
+        $("#produtosLinhaDois").toggleClass("dark");
+    });
+})

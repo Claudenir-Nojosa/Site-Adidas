@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <title>M11 - Exercício</title>
+</head>
+<body>
+    <div id="content" class="container g-0">
+        <div id="cabecalho" class="row g-0">
+            <div class="col-11">
+                <header >
+                    <div class="navbar navbar-static-top">
+                        <div class="container">
+                            <a href="#" class="navbar-brand" href="#">
+                                <img class="whitemodeLogo" src="/assets/images/adidas.svg" height="150" alt="">
+                                <img class="darkmodeLogo" src="/assets/images/adidas-logo-branco.png" height="150" alt="">
+                            </a>
+                            <button data-bs-toggle="collapse" data-bs-target="#menu" class="navbar-toggler" type="button">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <nav id="menu" class="collapse navbar-collapse justify-content-end">
+                                <ul class="nav navbar-nav nav-pills">
+                                    <li class="nav-item">
+                                        <a href="#sobre" class="nav-link">Sobre a loja</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#produtos" class="nav-link">Produtos</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <div id="darkModeButton" class="col-1">
+                <div class="mode_button">
+                    <div class="mode_buttonInterno"></div>
+                </div>
+            </div>
+        </div>
+        <div id="carousel" class="row g-0">
+            <div class="col-md-4">
+                <div class="container">
+                    <div id="carouselLoja" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div data-bs-interval="3000" class="carousel-item active">
+                                <img class="d-block w-100" src="/assets/images/carousel-1.jpg" alt="Loja Adidas">
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img class="d-block w-100" src="/assets/images/carousel-2.jpg" alt="Loja Adidas">
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img class="d-block w-100" src="/assets/images/carousel-3.jpg" alt="Loja Adidas">
+                            </div>
+                        </div>
+                        <button data-bs-target="#carouselLoja" class="carousel-control-prev" data-bs-slide="prev" type="button">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button data-bs-target="#carouselLoja" class="carousel-control-next" data-bs-slide="next" type="button">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="sobre" class="col-md-8">
+                <h2>Sobre a loja</h2>
+                <p>A Adidas é uma famosa marca esportiva que atende desde atletas e equipes profissionais de elite até qualquer indivíduo que queira tornar o esporte parte de suas vidas.</p>
+                <p>Ela abrange calçados, roupas, acessórios e equipamentos. Devido a qualidade dos produtos também entrou no hall da moda e cotidiano das pessoas.</p>
+                <p>Os produtos da marca, além de disponíveis na Internet, são vendidos em mais de 160 países e tem mais de 2.800 lojas próprias, sendo pelo menos a metade em conceito outlet.</p>
+            </div>
+        </div>
+        <div id="produtosh2" class="row g-0">
+            <div  class="col">
+                <h2>Produtos</h2>
+            </div>
+        </div>
+        <div id="produtos" class="row g-0">
+            <div class="col-3">
+                <section>
+                    <product id="produto">
+                        <a href="#">
+                            <img src="/assets/images/product.1.webp" alt="ULTRA 4DFWD">
+                            <img class="hover-img" src="/assets/images/product.1-hover.webp" alt="ULTRA 4DFWD">
+                        </a>
+                        <h3>TÊNIS ULTRA 4DFWD</h3>
+                        <p>Running</p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </product>
+                </section>
+            </div>
+            <div class="col-3">
+                <section id="produtos">
+                    <product id="produto">
+                        <a href="#">
+                            <img src="/assets/images/product.2.webp" alt="FORUM LOW">
+                            <img class="hover-img" src="/assets/images/product.2-hover.webp" alt="FORUM LOW">
+                        </a>
+                        <h3>TÊNIS FORUM LOW</h3>
+                        <p>Homem Originals</p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </product>
+                </section>
+            </div>
+            <div class="col-3">
+                <section id="produtos">
+                    <product id="produto">
+                        <a href="#">
+                            <img src="assets/images/product.3.webp" alt="NMD_S1">
+                            <img class="hover-img" src="assets/images/product.3-hover.jpg" alt="NMD_S1">
+                        </a>
+                        <h3>NMD_S1</h3>
+                        <p>Homem Originals</p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </product>
+                </section>
+            </div>
+            <div class="col-3">
+                <section id="produtos">
+                    <product id="produto">
+                        <a href="#">
+                            <img src="/assets/images/product.4.webp" alt="ULTRA ADIDAS 4D">
+                            <img class="hover-img" src="/assets/images/product.4-hover.jpg" alt="ULTRA ADIDAS 4D">
+                        </a>
+                        <h3>ULTRA ADIDAS 4D</h3>
+                        <p>Sportswear</p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </product>
+                </section>
+            </div>
+        </div>
+        <div id="produtosLinhaDois" class="row g-0">
+            <div class="col-3">
+                <section>
+                    <product id="produto">
+                        <a href="#">
+                            <img src="/assets/images/product.5.webp" alt="CAMISA 1 ARGENTINA">
+                            <img class="hover-img" src="/assets/images/product.5-hover.webp" alt="CAMISA 1 ARGENTINA">
+                        </a>
+                        <h3 id="argentina">CAMISA 1 ARGENTINA</h3>
+                        <p>Homem Futebol</p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </product>
+                </section>
+            </div>
+            <div class="col-3">
+                <section>
+                    <product id="produto">
+                        <a href="#">
+                            <img src="/assets/images/product.6.webp" alt="ADI2000">
+                            <img class="hover-img" src="/assets/images/product.6-hover.webp" alt="ADI2000">
+                        </a>
+                        <h3>ADI2000</h3>
+                        <p>Homem Originals</p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </product>
+                </section>
+            </div>
+            <div class="col-3">
+                <section>
+                    <product id="produto">
+                        <a href="#">
+                            <img src="/assets/images/product.7.webp" alt="MOLETOM ESSENTIALS">
+                            <img class="hover-img" src="/assets/images/product.7-hover.webp" alt="MOLETOM ESSENTIALS">
+                        </a>
+                        <h3 id="moletom" >MOLETOM ESSENTIALS</h3>
+                        <p>Homem Originals</p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </product>
+                </section>
+            </div>
+            <div class="col-3">
+                <section>
+                    <product id="produto">
+                        <a href="#">
+                            <img src="/assets/images/product.8.webp" alt="CHINELO ADILETTE">
+                            <img class="hover-img" src="/assets/images/product.8-hover.webp" alt="CHINELO ADILETTE">
+                        </a>
+                        <h3 id="chinelo">CHINELO ADILETTE</h3>
+                        <p>Originals</p>
+                        <button type="button">Adicionar ao carrinho</button>
+                    </product>
+                </section>
+            </div>
+        </div>
+        <div id="card" class="row g-0">
+            <div class="col">
+                <div class="card text-bg-dark">
+                    <img src="/assets/images/card.jpg" alt="">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">ADIDAS: HISTÓRIA ESTILO <br>E MATERIAL ESPORTIVO <br>DESDE 1949</h4>
+                        <p class="card-text">O esporte mantém o corpo e a mente em forma. E as pessoas mais próximas. <br> Com o esporte, temos o poder de mudar vidas. Pode ser através de histórias <br> emocionantes e atletas que te incentivam a levantar, fazer alguma coisa. <br> Ou quem sabe uma simples tecnologia de performance em uma loja <br> de material esportivo, na medida para melhorar o seu desempenho, <br> <strong>quebrar seu recorde.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/jquery-3.6.4.min.js"></script>
+    <script src="/assets/js/scripts.js"></script>
+</body>
+</html>
